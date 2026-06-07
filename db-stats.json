@@ -1,0 +1,49 @@
+{
+  "fileCount": 6,
+  "loadedCount": 0,
+  "timestamp": "2026-06-01T20:23:47.166Z",
+  "files": [
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\ants.csv",
+      "type": "csv",
+      "loaded": false,
+      "size": 1699521076,
+      "mtimeMs": 1777490945523.4602
+    },
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\boulanger.csv",
+      "type": "csv",
+      "loaded": false,
+      "size": 487668141,
+      "mtimeMs": 1742387679109.0042
+    },
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\etat_civil.csv",
+      "type": "csv",
+      "loaded": false,
+      "size": 1607526662,
+      "mtimeMs": 1741756799921.473
+    },
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\FFBoxe.json",
+      "type": "ndjson",
+      "loaded": false,
+      "size": 247441311,
+      "mtimeMs": 1760777405478.2322
+    },
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\ffnatation.fr.json",
+      "type": "csv",
+      "loaded": false,
+      "size": 192884853,
+      "mtimeMs": 1747890018000
+    },
+    {
+      "path": "C:\\Users\\jesui\\Desktop\\yanis\\db\\sfr_7m.txt",
+      "type": "csv",
+      "loaded": false,
+      "size": 1415664646,
+      "mtimeMs": 1760898231418.7588
+    }
+  ]
+}

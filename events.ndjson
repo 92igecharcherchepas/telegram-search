@@ -1,0 +1,13 @@
+{"type":"db-reload","loadedCount":0,"fileCount":0,"timestamp":"2026-06-01T19:39:30.014Z"}
+{"type":"command","chatId":"7849377081","command":"start","timestamp":"2026-06-01T19:39:30.230Z"}
+{"type":"command","chatId":"7849377081","command":"start","timestamp":"2026-06-01T19:39:30.233Z"}
+{"type":"search","chatId":"8674488791","query":"paris","resultCount":0,"sourceCount":0,"timestamp":"2026-06-01T19:42:52.697Z"}
+{"type":"search","chatId":"8674488791","query":"Mohammed 75","resultCount":0,"sourceCount":0,"timestamp":"2026-06-01T19:43:06.436Z"}
+{"type":"search","chatId":"8674488791","query":"/exports","resultCount":0,"sourceCount":0,"timestamp":"2026-06-01T19:43:11.922Z"}
+{"type":"db-reload","loadedCount":15575226,"fileCount":3,"timestamp":"2026-06-01T20:10:07.232Z"}
+{"type":"search","chatId":"8674488791","query":"AABAR Zahar","resultCount":0,"sourceCount":3,"timestamp":"2026-06-01T20:11:31.214Z"}
+{"type":"db-reload","loadedCount":12797054,"fileCount":6,"timestamp":"2026-06-01T20:19:02.939Z"}
+{"type":"db-reload","loadedCount":0,"fileCount":6,"timestamp":"2026-06-01T20:19:05.340Z"}
+{"type":"db-reload","loadedCount":0,"fileCount":6,"timestamp":"2026-06-01T20:22:10.214Z"}
+{"type":"db-reload","loadedCount":0,"fileCount":6,"timestamp":"2026-06-01T20:23:24.706Z"}
+{"type":"db-reload","loadedCount":0,"fileCount":6,"timestamp":"2026-06-01T20:23:47.177Z"}
