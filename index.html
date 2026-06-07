@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> KV Searcher Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="logo-section">
+        <div class="logo"></div>
+        <h1>KV Searcher</h1>
+        <p class="version">v1.0.0</p>
+      </div>
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active" data-section="dashboard">
+          <span class="icon"></span> Dashboard
+        </a>
+        <a href="#" class="nav-item" data-section="users">
+          <span class="icon"></span> Utilisateurs
+        </a>
+        <a href="#" class="nav-item" data-section="searches">
+          <span class="icon"></span> Recherches
+        </a>
+        <a href="#" class="nav-item" data-section="database">
+          <span class="icon"></span> Base de données
+        </a>
+        <a href="#" class="nav-item" data-section="settings">
+          <span class="icon"></span> Paramètres
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <button class="btn-secondary" id="refresh-btn"> Actualiser</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="top-header">
+        <div class="header-title">
+          <h2>Tableau de bord Telegram</h2>
+          <p>Supervision en temps réel de l'application</p>
+        </div>
+        <div class="header-actions">
+          <div class="status-indicator" id="bot-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Hors ligne</span>
+          </div>
+          <button class="btn-secondary" id="open-db-btn"> DB</button>
+          <button class="btn-secondary" id="open-data-btn"> Data</button>
+        </div>
+      </header>
+
+      <!-- Dashboard Section -->
+      <section id="dashboard" class="section active">
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+          <div class="stat-card card">
+            <div class="stat-header">
+              <span class="stat-icon"></span>
+              <h3>Profils chargés</h3>
+            </div>
+            <div class="stat-value" id="stat-profiles">0</div>
+            <p class="stat-detail">Fichiers: <span id="stat-files">0</span></p>
+          </div>
+
+          <div class="stat-card card">
+            <div class="stat-header">
+              <span class="stat-icon"></span>
+              <h3>Utilisateurs actifs</h3>
+            </div>
+            <div class="stat-value" id="stat-users">0</div>
+            <p class="stat-detail">Staff: <span id="stat-staff">0</span></p>
+          </div>
+
+          <div class="stat-card card">
+            <div class="stat-header">
+              <span class="stat-icon"></span>
+              <h3>Recherches totales</h3>
+            </div>
+            <div class="stat-value" id="stat-searches">0</div>
+            <p class="stat-detail">Aujourd'hui: <span id="stat-today">0</span></p>
+          </div>
+
+          <div class="stat-card card">
+            <div class="stat-header">
+              <span class="stat-icon"></span>
+              <h3>Événements</h3>
+            </div>
+            <div class="stat-value" id="stat-events">0</div>
+            <p class="stat-detail">Dernière mise à jour: <span id="stat-update">—</span></p>
+          </div>
+        </div>
+
+        <!-- Overview Cards -->
+        <div class="overview-section">
+          <div class="card card-lg">
+            <h3> Aperçu du système</h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="info-label">Statut Bot</span>
+                <span class="info-value" id="info-status">Démarrage...</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Uptime</span>
+                <span class="info-value" id="info-uptime">—</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Mode Staff</span>
+                <span class="info-value" id="info-staff-mode">OFF</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Version</span>
+                <span class="info-value">Node 22</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-lg">
+            <h3> Top 5 requêtes</h3>
+            <div id="top-queries" class="list-container">
+              <div class="empty-state">Aucune requête enregistrée</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity Log -->
+        <div class="card card-full">
+          <h3> Événements récents</h3>
+          <div id="events-log" class="log-container">
+            <div class="empty-state">Aucun événement</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Users Section -->
+      <section id="users" class="section">
+        <div class="card card-full">
+          <h3> Liste des utilisateurs</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Chat ID</th>
+                  <th>Utilisateur</th>
+                  <th>Recherches</th>
+                  <th>Dernière activité</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="users-table">
+                <tr class="empty-row">
+                  <td colspan="5" class="empty-state">Aucun utilisateur enregistré</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Searches Section -->
+      <section id="searches" class="section">
+        <div class="search-grid">
+          <div class="card card-lg">
+            <h3> Recherches récentes</h3>
+            <div id="recent-searches" class="list-container">
+              <div class="empty-state">Aucune recherche</div>
+            </div>
+          </div>
+          <div class="card card-lg">
+            <h3> Statistiques de recherche</h3>
+            <div id="search-stats" class="info-grid">
+              <div class="info-item">
+                <span class="info-label">Recherches par jour</span>
+                <span class="info-value" id="searches-per-day">0</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Terme populaire</span>
+                <span class="info-value" id="top-term">—</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Database Section -->
+      <section id="database" class="section">
+        <div class="card card-full">
+          <h3> Fichiers de base de données</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Fichier</th>
+                  <th>Type</th>
+                  <th>Taille</th>
+                  <th>Profils</th>
+                  <th>Modifié</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="files-table">
+                <tr class="empty-row">
+                  <td colspan="6" class="empty-state">Aucun fichier chargé</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Settings Section -->
+      <section id="settings" class="section">
+        <div class="card card-full">
+          <h3> Configuration</h3>
+          <div class="settings-container">
+            <div class="setting-group">
+              <label>Staff IDs</label>
+              <input type="text" id="config-staff" readonly>
+            </div>
+            <div class="setting-group">
+              <label>Mode Staff</label>
+              <div class="toggle">
+                <input type="checkbox" id="config-staffmode">
+                <label for="config-staffmode"></label>
+              </div>
+            </div>
+            <div class="setting-group">
+              <label>Dossier DB</label>
+              <input type="text" id="config-db" readonly>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

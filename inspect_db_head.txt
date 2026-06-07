@@ -1,0 +1,84 @@
+=== etat_civil.json ===
+Nom_1,Prénom_1,Complément,Voie-rue,Lieu-dit,Code postal,Bureau distributeur,Civilité,Sexe,Nom_2,Prénom_2,Né(e) le,Lieu de naissance,Décédé(e) le,Pays ou DOM-TOM,Téléphone domicile,Téléphone travail,Fax domicile,Fax travail,Mobile personnel,Mobile travail,Email principal,Email officiel
+YAZ,ALPER,,8 RUE DE LA FILATURE,,1200.0,BELLEGARDE SUR VALSERINE,Monsieur,Masculin,YAZ,ALPER,07/07/2015,EPAGNY METZ TESSY,,,,,,,680598132,,esmayaz@icloud.com,
+YAZ,HEMRIQUE,,,,95870.0,BEZONS,Monsieur,Masculin,YAZ,HEMRIQUE,26/11/1996,ERMONT,,,,,,,06 60 47 08 30,,,
+YAZ,JEREMIAH,,25 BIS RUE EDGAR QUINET,,93120.0,LA COURNEUVE,Monsieur,Masculin,YAZ,JEREMIAH,26/08/2010,PARIS,,,,,,,06 24 26 83 12,,,
+YAZ,MEHMET,Bâtiment B,4 rue du bois jacques,,95600.0,EAUBONNE,Monsieur,Masculin,YAZ,MEHMET,18/09/1983,BAKIRKOY,,,,,,,788912112,,mehmetb.yaz@gmail.com,
+YAZ,SINAN,,1 RUE DES JARDINS,,1200.0,BELLEGARDE SUR VALSERINE,Monsieur,Masculin,YAZ,SINAN,20/05/1984,HENDEK,,,,,,,,,,
+YAZA,ADEM,27AVENUE DU MONT BLANC,27avenue du mont blanc,69140 Rillieux la Pape,69140.0,RILLIEUX LA PAPE,Monsieur,Masculin,YAZA,ADEM,03/03/2013,RILLIEUX LA PAPE,,,,,,,601103113,,dahmanifarida350@gmail.com,
+YAZAC,ADAM,,11 rue esla triolet,,59310.0,ORCHIES,Monsieur,Masculin,YAZAC,ADAM,30/10/2015,VALENCIENNES,,,,,,,762766999,,ryazag@gmail.com,
+YAZADI,AHMED,,,,38450.0,VIF,Monsieur,Masculin,YAZADI,AHMED,28/10/1986,LA TRONCHE,,,,,,,,,,
+YAZAG,ELIYAN,,52 RUE DES CHERCHEVETS,,95800.0,CERGY,Monsieur,Masculin,YAZAG,ELIYAN,24/04/2005,ARGENTEUIL,,,,,,,698669502,,yazag.hakim@gmail.com,
+YAZAG,ELYAN,,52 RUE DES HERCHEVETS,,95800.0,CERGY,Monsieur,Masculin,YAZAG,ELYAN,24/04/2015,ARGENTEUIL,,,,,,,698669502,,yazag.hakim@gmail.com,
+YAZAG,KAMEL,,,,85150.0,LE GIROUARD,Monsieur,Masculin,YAZAG,KAMEL,03/05/1988,CHATENAY MALABRY,,,,,,,,,,
+YAZAG,MEHDI,,2 RUE GILLES NEUMANS,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,MEHDI,05/01/2005,VALENCIENNES,,,327455803,,,,665027834,,mehdi.yaza@outlook.fr,
+YAZAG,MOHAMED,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,MOHAMED,23/03/1974,VALENCIENNES,,,,,,,,,,
+YAZAG,RABAH,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,RABAH,04/09/1978,VALENCIENNES,,,,,,,,,,
+YAZAG,RACHID,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,RACHID,16/06/1975,VALENCIENNES,,,,,,,,,,
+YAZAG,ROSA,,55 RUE DANIEL FERY,,59282.0,DOUCHY LES MINES,Mademoiselle,Féminin,YAZAG,ROSA,17/03/2013,VALENCIENNES,,,,,,,623620452,,yazaggwendoline@gmail.com,
+YAZAG,SOFIANE,,,,77176.0,SAVIGNY LE TEMPLE,Monsieur,Masculin,YAZAG,SOFIANE,02/04/1981,CHATENAY MALABRY,,,,,,,,,,
+YAZAGI,JONATHAN,,,,77370.0,VANVILLE,Monsieur,Masculin,YAZAGI,JONATHAN,03/12/1992,MELIN,,,,,,,,,,
+YAZAL,EFE,,118 RUE DE L'AVENIR,,93130.0,NOISY LE SEC,Monsieur,Masculin,YAZAL,EFE,15/04/2011,MONTREUIL,,,,,,,633372484,,,
+=== FFBoxe.json ===
+{"civilite": "M", "nom": "EXALTO", "prenom": "Administrateur", "sexe": "M", "datenaissance": "01/01/1960", "nationalite": "FRANCE", "adresse": {"adresse_complete": "4 RUE RENÉ MATRENCHAR 33150 CENON", "code_postal": "33150", "commune": "CENON"}, "code_adherent": "000001", "email": "patricia@ex-alto.com"}
+{"civilite": "M", "sexe": "M", "datenaissance": "25/03/2009", "nationalite": "FRANCE", "adresse": {"adresse_complete": "6 MONTEE DE LA CABRETTE\nLES TERRASSES DE L'OLIVIER 13800 ISTRES", "code_postal": "13800", "commune": "ISTRES"}, "derniere_licence": {"saison": 2019, "categorie_age_id": 134, "type": "Boxe Educative Assaut", "date_debut_validite": "2019-01-24", "date_fin": "2019-08-31"}, "code_adherent": "000037", "Phone2": "0698242166", "email": "45nadji@gmail.com"}
+{"civilite": "Mme", "sexe": "F", "datenaissance": "14/05/1980", "nationalite": "FRANCE", "adresse": {"adresse_complete": "6 DE LA REPUBLIQUE 74100 ANNEMASSE", "code_postal": "74100", "commune": "ANNEMASSE"}, "derniere_licence": {"saison": 2017, "categorie_age_id": 125, "type": "Aéroboxe", "date_debut_validite": "2016-10-04", "date_fin": "2017-08-31"}, "code_adherent": "000043", "Phone2": "0688275883"}
+{"civilite": "M", "prenom": "Alain", "sexe": "M", "datenaissance": "18/11/1960", "nationalite": "FRANCE", "adresse": {"adresse_complete": "26 RUE JEAN JAURES 76410 SAINT AUBIN LÈS ELBEUF", "code_postal": "76410", "commune": "SAINT AUBIN LÈS ELBEUF"}, "derniere_licence": {"saison": 2015, "categorie_age_id": 112, "type": "Cadre", "date_debut_validite": "2014-11-17", "date_fin": "2015-08-31"}, "code_adherent": "000047", "Phone2": "0663668782"}
+{"civilite": "Mme", "prenom": "Gary", "sexe": "F", "datenaissance": "19/02/1988", "nationalite": "FRANCE", "adresse": {"adresse_complete": "09 AVENUE DE LATTRE DE TASSIGNY 79000 NIORT", "code_postal": "79000", "commune": "NIORT"}, "derniere_licence": {"saison": 2003, "categorie_age_id": 25, "type": "Boxe Educative", "date_debut_validite": "2003-05-05", "date_fin": "2003-08-31"}, "code_adherent": "000050"}
+{"civilite": "M", "prenom": "Kelian", "sexe": "M", "datenaissance": "06/05/2005", "nationalite": "FRANCE", "adresse": {"adresse_complete": "49 PLACE PIERRE MASSET 34430 SAINT JEAN DE VEDAS", "code_postal": "34430", "commune": "SAINT JEAN DE VEDAS"}, "derniere_licence": {"saison": 2022, "categorie_age_id": 159, "type": "Boxe Loisir", "date_debut_validite": "2021-09-23", "date_fin": "2022-08-31"}, "code_adherent": "000053", "Phone1": "0467638525", "Phone2": "0629704400"}
+{"civilite": "M", "prenom": "Ismael", "sexe": "M", "datenaissance": "17/09/1999", "nationalite": "FRANCE", "adresse": {"adresse_complete": "24 VILLA VACASSY 94410 SAINT MAURICE", "code_postal": "94410", "commune": "SAINT MAURICE"}, "derniere_licence": {"saison": 2019, "categorie_age_id": 139, "type": "Boxe Amateur", "date_debut_validite": "2018-11-06", "date_fin": "2019-08-31"}, "code_adherent": "000052", "Phone2": "0667654165"}
+{"civilite": "M", "prenom": "Rayyân", "sexe": "M", "datenaissance": "03/09/2006", "nationalite": "FRANCE", "adresse": {"adresse_complete": "5 RUE DE MONTRICHARD 54700 PONT À MOUSSON", "code_postal": "54700", "commune": "PONT À MOUSSON"}, "derniere_licence": {"saison": 2023, "categorie_age_id": 166, "type": "Boxe Educative Assaut", "date_debut_validite": "2022-12-12", "date_fin": "2023-08-31"}, "code_adherent": "000059", "Phone1": "0767745085", "Phone2": "0680646561"}
+{"civilite": "M", "sexe": "M", "datenaissance": "09/02/1969", "nationalite": "FRANCE", "adresse": {"adresse_complete": "RUE DE LA MAIRIE 13200 ARLES", "code_postal": "13200", "commune": "ARLES"}, "derniere_licence": {"saison": 2015, "categorie_age_id": 112, "type": "Officiel", "date_debut_validite": "2015-01-19", "date_fin": "2015-08-31"}, "code_adherent": "000065"}
+{"civilite": "M", "sexe": "M", "datenaissance": "29/02/1996", "nationalite": "FRANCE", "adresse": {"adresse_complete": "276 RUE DES MANOIRS 59279 LOON PLAGE", "code_postal": "59279", "commune": "LOON PLAGE"}, "derniere_licence": {"saison": 2018, "categorie_age_id": 132, "type": "Boxe Loisir", "date_debut_validite": "2017-10-05", "date_fin": "2018-08-31"}, "code_adherent": "000066"}
+{"civilite": "Mme", "prenom": "Mohamed", "sexe": "F", "datenaissance": "28/11/1990", "nationalite": "FRANCE", "adresse": {"adresse_complete": "3 BIS RUE DU METRO CHARONNE 91300 MASSY", "code_postal": "91300", "commune": "MASSY"}, "derniere_licence": {"saison": 2005, "categorie_age_id": 39, "type": "Boxe Educative Assaut", "date_debut_validite": "2004-12-07", "date_fin": "2005-08-31"}, "code_adherent": "000056"}
+{"civilite": "M", "nom": "CORDEVANT", "prenom": "Jordan", "sexe": "M", "datenaissance": "12/06/1995", "nationalite": "FRANCE", "adresse": {"adresse_complete": "35 RUE DE LA REPUBLIQUE 02120 GUISE", "code_postal": "02120", "commune": "GUISE"}, "derniere_licence": {"saison": 2026, "categorie_age_id": 202, "type": "Dirigeant", "date_debut_validite": "2025-09-17", "date_fin": "2026-08-31"}, "code_adherent": "000071", "Phone2": "0635411769", "email": "jordan.cordevant@hotmail.fr"}
+{"civilite": "M", "nom": ".LABEAU.", "prenom": "Antonin", "sexe": "M", "datenaissance": "23/12/1987", "nationalite": "FRANCE", "adresse": {"adresse_complete": "LIEU DIR BAYONNR 64100 BAYONNE", "code_postal": "64100", "commune": "BAYONNE"}, "derniere_licence": {"saison": 2019, "categorie_age_id": 139, "type": "Boxe Loisir", "date_debut_validite": "2018-12-05", "date_fin": "2019-08-31"}, "code_adherent": "000073"}
+{"civilite": "M", "prenom": "Tom", "sexe": "M", "datenaissance": "20/09/2002", "nationalite": "FRANCE", "adresse": {"adresse_complete": "50 RUE DELA CITE JARDIN 14100 LISIEUX", "code_postal": "14100", "commune": "LISIEUX"}, "derniere_licence": {"saison": 2011, "categorie_age_id": 78, "type": "Boxe Educative Assaut", "date_debut_validite": "2010-11-18", "date_fin": "2011-08-31"}, "code_adherent": "000069"}
+{"civilite": "M", "prenom": "Bilhal", "sexe": "M", "datenaissance": "18/11/1979", "nationalite": "FRANCE", "adresse": {"adresse_complete": "566 RUE DU GENERAL DE GAULLE 59100 ROUBAIX", "code_postal": "59100", "commune": "ROUBAIX"}, "derniere_licence": {"saison": 2000, "categorie_age_id": 6, "type": "Boxe Amateur", "date_debut_validite": "1999-09-29", "date_fin": "2000-08-31"}, "code_adherent": "000068"}
+{"civilite": "M", "nom": ".MECHKAKA", "prenom": "Hamza", "sexe": "M", "datenaissance": "23/08/2001", "nationalite": "FRANCE", "adresse": {"adresse_complete": "LES HETRES BAT HETRES\nLES GENETS 38780 PONT EVEQUE", "code_postal": "38780", "commune": "PONT EVEQUE"}, "derniere_licence": {"saison": 2010, "categorie_age_id": 71, "type": "Boxe Educative Assaut", "date_debut_validite": "2010-02-11", "date_fin": "2010-08-31"}, "code_adherent": "000075", "Phone1": "0474790956", "email": "hassanCF@live.FR"}
+{"civilite": "M", "nom": ".RODRIGUEZ", "prenom": "David", "sexe": "M", "datenaissance": "18/09/1988", "nationalite": "FRANCE", "adresse": {"adresse_complete": "49 PASSAGE HERMITTE\nBATIMENT B2\nESACLIER 4\nAPT 74 33000 BORDEAUX", "code_postal": "33000", "commune": "BORDEAUX"}, "derniere_licence": {"saison": 2013, "categorie_age_id": 97, "type": "Pré-Combat", "date_debut_validite": "2013-04-29", "date_fin": "2013-08-31"}, "code_adherent": "000076"}
+{"civilite": "M", "nom": "¨PEYRE", "prenom": "Albin", "sexe": "M", "datenaissance": "26/10/1988", "nationalite": "FRANCE", "adresse": {"adresse_complete": "1 RUE PIERRE SEMARD 13340 ROGNAC", "code_postal": "13340", "commune": "ROGNAC"}, "derniere_licence": {"saison": 2012, "categorie_age_id": 90, "type": "Boxe Educative Assaut", "date_debut_validite": "2011-10-24", "date_fin": "2012-08-31"}, "code_adherent": "000078", "Phone2": "0661926595"}
+{"civilite": "M", "nom": "¨PASTRE", "prenom": "Jeremy", "sexe": "M", "datenaissance": "06/09/1990", "nationalite": "FRANCE", "adresse": {"adresse_complete": "13 CHEMIN DE LA MALE 31190 AUTERIVE", "code_postal": "31190", "commune": "AUTERIVE"}, "derniere_licence": {"saison": 2006, "categorie_age_id": 47, "type": "Boxe Educative Assaut", "date_debut_validite": "2005-12-08", "date_fin": "2006-08-31"}, "code_adherent": "000077"}
+{"civilite": "M", "nom": "LAMANDE", "prenom": "Hugo", "sexe": "M", "datenaissance": "28/11/2002", "nationalite": "FRANCE", "adresse": {"adresse_complete": "33 CHEMIN DU MARAIS 38410 VAULNAVEYS LE HAUT", "code_postal": "38410", "commune": "VAULNAVEYS LE HAUT"}, "derniere_licence": {"saison": 2023, "categorie_age_id": 167, "type": "Boxe Educative Assaut", "date_debut_validite": "2022-09-28", "date_fin": "2023-08-31"}, "code_adherent": "000074", "Phone2": "0695989969", "email": "lamandehugo@gmail.com"}
+=== ffnatation.fr.json ===
+IUF,Nom complet,Année de naissance,Sexe,Nationalité,Structure,ID Structure,Saison,Statut,Discipline,Attestation
+1685881,BARBEZANGE Eva,2002,F,FRA,ANDERNOS ESPADONS THALASSA,751,2013,,,
+1492851,BARBEZANGE Ilian,2003,M,FRA,CNO ST-GERMAIN-EN-LAYE,576,2014,,,
+1655071,BARBEZANGE Isabelle,1970,F,FRA,ANDERNOS ESPADONS THALASSA,751,2018,,,
+2741813,BARBEZANGE Manoé,2008,M,FRA,ANDERNOS ESPADONS THALASSA,751,2020,,,
+4004251,BARBEZAT Marion,2007,F,FRA,A.S.M BELFORT NATATION,2347,2023,,,
+755095,BARBEZAT Victoria,1995,F,FRA,RILLIEUX NATATION,836,2004,,,
+862946,BARBEZIER Léa,1994,F,FRA,CN BÉZIERS,412,2005,,,
+2658555,BARBEZIER-MOULIN Lohan,2010,M,FRA,CN ATLANTIE,1361,2017,,,
+896489,BARBEZIEUX Marion,1990,F,FRA,UNION ST-BRUNO BORDEAUX,348,2005,,,
+3617365,BARBEZIEUX Monique,1936,F,FRA,A.C AGGLOMERATION PERIGUEUX,2458,2021,,,
+1273503,BARBEZIEUX Perrine,1999,F,FRA,AC MOLSHEIM MUTZIG,342,2014,,,
+708396,BARBEZIEUX Vincent,1995,M,FRA,AC MOLSHEIM MUTZIG,342,2007,,,
+3025143,BARBI Anna,2005,F,FRA,SC THIONVILLE,306,2025,,,
+336437,BARBI Brigitte,1959,F,FRA,VITROLLES SPORT NATATION,1467,2023,,,
+532492,BARBI Bruno,1962,M,FRA,BONDOUFLE AMICAL CLUB,832,2001,,,
+4340651,BARBI DEREPAS Maina,2017,F,FRA,US CAGNES-SUR-MER NATATION,993,2025,,,
+2170923,BARBI Federica,1976,F,,ASM CHAMALIERES NATATION,892,2017,,,
+1257569,BARBI Hugo,2000,M,FRA,CN LINGOLSHEIM,1006,2010,,,
+476408,BARBI Jean-Claude,1968,M,FRA,BONDOUFLE AMICAL CLUB,832,2001,,,
+=== mairie_ants%20FULL.json ===
+Nom_1,Prénom_1,Complément,Voie-rue,Lieu-dit,Code postal,Bureau distributeur,Civilité,Sexe,Nom_2,Prénom_2,Né(e) le,Lieu de naissance,Décédé(e) le,Pays ou DOM-TOM,Téléphone domicile,Téléphone travail,Fax domicile,Fax travail,Mobile personnel,Mobile travail,Email principal,Email officiel
+YAZ,ALPER,,8 RUE DE LA FILATURE,,1200.0,BELLEGARDE SUR VALSERINE,Monsieur,Masculin,YAZ,ALPER,07/07/2015,EPAGNY METZ TESSY,,,,,,,680598132,,esmayaz@icloud.com,
+YAZ,HEMRIQUE,,,,95870.0,BEZONS,Monsieur,Masculin,YAZ,HEMRIQUE,26/11/1996,ERMONT,,,,,,,06 60 47 08 30,,,
+YAZ,JEREMIAH,,25 BIS RUE EDGAR QUINET,,93120.0,LA COURNEUVE,Monsieur,Masculin,YAZ,JEREMIAH,26/08/2010,PARIS,,,,,,,06 24 26 83 12,,,
+YAZ,MEHMET,Bâtiment B,4 rue du bois jacques,,95600.0,EAUBONNE,Monsieur,Masculin,YAZ,MEHMET,18/09/1983,BAKIRKOY,,,,,,,788912112,,mehmetb.yaz@gmail.com,
+YAZ,SINAN,,1 RUE DES JARDINS,,1200.0,BELLEGARDE SUR VALSERINE,Monsieur,Masculin,YAZ,SINAN,20/05/1984,HENDEK,,,,,,,,,,
+YAZA,ADEM,27AVENUE DU MONT BLANC,27avenue du mont blanc,69140 Rillieux la Pape,69140.0,RILLIEUX LA PAPE,Monsieur,Masculin,YAZA,ADEM,03/03/2013,RILLIEUX LA PAPE,,,,,,,601103113,,dahmanifarida350@gmail.com,
+YAZAC,ADAM,,11 rue esla triolet,,59310.0,ORCHIES,Monsieur,Masculin,YAZAC,ADAM,30/10/2015,VALENCIENNES,,,,,,,762766999,,ryazag@gmail.com,
+YAZADI,AHMED,,,,38450.0,VIF,Monsieur,Masculin,YAZADI,AHMED,28/10/1986,LA TRONCHE,,,,,,,,,,
+YAZAG,ELIYAN,,52 RUE DES CHERCHEVETS,,95800.0,CERGY,Monsieur,Masculin,YAZAG,ELIYAN,24/04/2005,ARGENTEUIL,,,,,,,698669502,,yazag.hakim@gmail.com,
+YAZAG,ELYAN,,52 RUE DES HERCHEVETS,,95800.0,CERGY,Monsieur,Masculin,YAZAG,ELYAN,24/04/2015,ARGENTEUIL,,,,,,,698669502,,yazag.hakim@gmail.com,
+YAZAG,KAMEL,,,,85150.0,LE GIROUARD,Monsieur,Masculin,YAZAG,KAMEL,03/05/1988,CHATENAY MALABRY,,,,,,,,,,
+YAZAG,MEHDI,,2 RUE GILLES NEUMANS,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,MEHDI,05/01/2005,VALENCIENNES,,,327455803,,,,665027834,,mehdi.yaza@outlook.fr,
+YAZAG,MOHAMED,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,MOHAMED,23/03/1974,VALENCIENNES,,,,,,,,,,
+YAZAG,RABAH,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,RABAH,04/09/1978,VALENCIENNES,,,,,,,,,,
+YAZAG,RACHID,,,,59920.0,QUIEVRECHAIN,Monsieur,Masculin,YAZAG,RACHID,16/06/1975,VALENCIENNES,,,,,,,,,,
+YAZAG,ROSA,,55 RUE DANIEL FERY,,59282.0,DOUCHY LES MINES,Mademoiselle,Féminin,YAZAG,ROSA,17/03/2013,VALENCIENNES,,,,,,,623620452,,yazaggwendoline@gmail.com,
+YAZAG,SOFIANE,,,,77176.0,SAVIGNY LE TEMPLE,Monsieur,Masculin,YAZAG,SOFIANE,02/04/1981,CHATENAY MALABRY,,,,,,,,,,
+YAZAGI,JONATHAN,,,,77370.0,VANVILLE,Monsieur,Masculin,YAZAGI,JONATHAN,03/12/1992,MELIN,,,,,,,,,,
+YAZAL,EFE,,118 RUE DE L'AVENIR,,93130.0,NOISY LE SEC,Monsieur,Masculin,YAZAL,EFE,15/04/2011,MONTREUIL,,,,,,,633372484,,,
